@@ -1,3 +1,3 @@
 # GPA-Calculator
 
-A GPA Calculator for the college leve.
+A GPA Calculator for the college level.
