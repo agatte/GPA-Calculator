@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Revised GPA Calculator</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <p><a href="javascript:void(0);" id="add_row" class="btn btn-info">Add Row</a></p>
+<form id="gpa_form" action="index.html">
+    <table id="grades_table" class="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Class/Course Name</th>
+          <th>Grade</th>
+          <th>Credits</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    <input class="btn btn-success" type="submit" value="Calculate" />
+  </form>
+  <div id="gpa_output"></div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
